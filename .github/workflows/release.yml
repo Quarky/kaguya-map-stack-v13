@@ -1,0 +1,24 @@
+name: Release Foundry Module
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build module zip
+        run: |
+          zip -r kaguya-map-stack-v13.zip module.json scripts macros providers.json README.md LICENSE standalone
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            kaguya-map-stack-v13.zip
+            module.json
