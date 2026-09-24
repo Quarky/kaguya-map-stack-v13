@@ -1,0 +1,66 @@
+[
+  {
+    "id": "fragmaps-free",
+    "label": "FragMaps Cyberpunk Battlemaps",
+    "tier": "required-free",
+    "maxScenes": 8,
+    "include": ["server","security","office","corporate","industrial","warehouse","garage","factory","lab","street","apartment","clinic"],
+    "exclude": ["desert","wasteland","forest","beach"]
+  },
+  {
+    "id": "maps-in-cyberspace",
+    "label": "Maps in Cyberspace",
+    "tier": "required-free",
+    "maxScenes": 12,
+    "include": ["station","hangar","hanger","bay","dock","cargo","terminal","security","engineering","reactor","bridge","control","corridor","maintenance","lab","medical","storage","industrial","shuttle","spaceport"],
+    "exclude": []
+  },
+  {
+    "id": "miskasmaps",
+    "label": "Miska's Maps - Battlemap Pack",
+    "tier": "required-free",
+    "maxScenes": 8,
+    "include": ["space","sci-fi","scifi","station","hangar","hanger","dock","ship","lab","industrial","facility","bunker","control"],
+    "exclude": ["fantasy","dungeon","forest","tavern"]
+  },
+  {
+    "id": "mapdoctor-free-bundle",
+    "label": "Map Doctor: Free Bundle",
+    "tier": "required-free",
+    "maxScenes": 8,
+    "include": ["space","station","sci-fi","scifi","modern","industrial","lab","warehouse","terminal","airport","security","facility"],
+    "exclude": ["fantasy","castle","forest","swamp","temple"]
+  },
+  {
+    "id": "moonlight-maps-sci-fi-strange-worlds-collection-1",
+    "label": "Moonlight Maps SciFi - Strange Worlds 1",
+    "tier": "recommended-premium",
+    "maxScenes": 10,
+    "include": ["sky port","long range shuttle","mars habitation","remote outpost","forward outpost","cargo runner","valley station","deep sea lab","frozen drill site"],
+    "exclude": []
+  },
+  {
+    "id": "mmp-scifi-beyond-earth-map-pack-walled",
+    "label": "Beyond Earth - Map Pack (Walled)",
+    "tier": "recommended-premium",
+    "maxScenes": 10,
+    "include": ["moon base","moon terrain","iss","mars base","mars terrain","docking"],
+    "exclude": []
+  },
+  {
+    "id": "mmp-scifi-garrisons-map-pack-walled",
+    "label": "SciFi Military Garrisons - Map Pack (Walled)",
+    "tier": "recommended-premium",
+    "maxScenes": 12,
+    "include": ["hangar","hanger","hangar control","hanger control","security","bridge","workshop","engineering","medical","officer","crew","air tower","land tower","command"],
+    "exclude": ["water tower","swamp"]
+  },
+  {
+    "id": "tc-modern",
+    "label": "TC Modern",
+    "tier": "recommended-premium",
+    "maxScenes": 8,
+    "include": ["terminal","airport","security","office","warehouse","industrial","lab","station","garage","control"],
+    "exclude": ["residential","suburb","park"]
+  }
+]
