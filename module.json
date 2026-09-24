@@ -1,0 +1,74 @@
+{
+  "id": "kaguya-map-stack-v13",
+  "title": "Kaguya Starport Map Stack — Foundry VTT v13",
+  "description": "Dependency bridge and non-destructive importer for sci-fi/cyberpunk map packs used with the Android / Shadow of the Beanstalk Kaguya campaign. No third-party map artwork is redistributed.",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13",
+    "maximum": "13"
+  },
+  "authors": [
+    {
+      "name": "Quarky campaign tooling / OpenAI-assisted build"
+    }
+  ],
+  "esmodules": [
+    "scripts/kaguya-map-importer.js"
+  ],
+  "url": "https://github.com/Quarky/kaguya-map-stack-v13",
+  "manifest": "https://raw.githubusercontent.com/Quarky/kaguya-map-stack-v13/main/module.json",
+  "download": "https://raw.githubusercontent.com/Quarky/kaguya-map-stack-v13/main/kaguya-map-stack-v13.zip",
+  "relationships": {
+    "systems": [
+      {
+        "id": "genesys",
+        "type": "system"
+      }
+    ],
+    "requires": [
+      {
+        "id": "fragmaps-free",
+        "type": "module"
+      },
+      {
+        "id": "maps-in-cyberspace",
+        "type": "module"
+      },
+      {
+        "id": "miskasmaps",
+        "type": "module"
+      },
+      {
+        "id": "mapdoctor-free-bundle",
+        "type": "module"
+      }
+    ],
+    "recommends": [
+      {
+        "id": "moonlight-maps-sci-fi-strange-worlds-collection-1",
+        "type": "module"
+      },
+      {
+        "id": "mmp-scifi-beyond-earth-map-pack-walled",
+        "type": "module"
+      },
+      {
+        "id": "mmp-scifi-garrisons-map-pack-walled",
+        "type": "module"
+      },
+      {
+        "id": "tc-modern",
+        "type": "module"
+      },
+      {
+        "id": "sci-fi-map-tiles",
+        "type": "module"
+      },
+      {
+        "id": "sci-fi-map-tiles-ii",
+        "type": "module"
+      }
+    ]
+  }
+}
